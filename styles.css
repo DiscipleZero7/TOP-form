@@ -91,7 +91,30 @@ a {
 }
 
 .form-section {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     filter: drop-shadow(5px 5px 5px gray);
     flex: 1;
+    padding-top: 25px;
+    padding-left: 50px;
+
+    padding-right: 40%;
+}
+
+.middle-text {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+input {
+    font-size: 16px;
+    padding: 8px;
+    width: 320px;
 }
